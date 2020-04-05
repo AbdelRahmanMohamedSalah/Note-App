@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.example.abdelrahman.note.Activity_signin">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Note"
+        android:textColor="@color/color_note2"
+        android:textSize="60dp"
+
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_style2"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:fontFamily="monospace"
+        android:hint="Enter Name..."
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+
+        android:textColor="@color/color_note2"
+        android:textColorHint="@color/color_hint"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_style2"
+        android:drawableStart="@drawable/ic_lock_open_black_24dp"
+        android:fontFamily="monospace"
+        android:hint="Password..."
+        android:padding="5dp"
+        android:password="true"
+        android:textColor="@color/color_note2"
+        android:textColorHint="@color/color_hint" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/button_style2"
+        android:text="Login"
+        android:textColor="@color/color_note" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="Or Create new account"
+        android:textColor="@color/color_hint" />
+
+
+    <ProgressBar
+        android:id="@+id/progressSignUpActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+     />
+</LinearLayout>

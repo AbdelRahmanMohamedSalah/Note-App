@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ActionBar">#533C33</color>
+    <color name="dark">#3E2D26</color>
+    <color name="color_et">#533C33</color>
+    <color name="Black">#000000</color>
+    <color name="color1">#a531c6</color>
+    <color name="color2">#c43098</color>
+    <color name="color3">#dad64b</color>
+    <color name="color4">#24c49c</color>
+    <color name="color5">#7e50e1</color>
+    <color name="color6">#f2afc6</color>
+    <color name="color7">#15b35d7a</color>
+    <color name="color8">#972f53</color>
+    <color name="color9">#289b41</color>
+    <color name="color10">#191c7b</color>
+    <color name="color11">#87727a</color>
+    <color name="color12">#c47376</color>
+    <color name="color13">#f7939a</color>
+    <color name="color14">#b47f3e</color>
+    <color name="color15">#de615f</color>
+    <color name="color16">#3a90b3</color>
+    <color name="color17">#9f379f</color>
+    <color name="color18">#be266d</color>
+    <color name="color19">#c2247b</color>
+    <color name="color20">#b30742</color>
+    <color name="color21">#bea32450</color>
+    <color name="color22">#9cd61013</color>
+    <color name="color23">#b3a93e</color>
+    <color name="color24">#b5638942</color>
+    <color name="color25">#96b5aff2</color>
+    <color name="color26">#de2a31a4</color>
+    <color name="white">#27ffffff</color>
+    <color name="kk">#00d6d6d6</color>
+    <color name="mm">#d00a0a0a</color>
+    <color name="color_note">#f9f9e5</color>
+
+    <color name="color_note2">#533C33</color>
+    <color name="color_hint">#94533C33</color>
+    <color name="color_note5">#ffffbd</color>
+    <color name="color_note3">#fafad4</color>
+    <color name="color_note4">#fafaef</color>
+
+
+</resources>
